@@ -28,19 +28,19 @@ $(document).ready(function() {
   });
   $('body').keydown(function(e) {
 		if (e.which == 88) {
-			$(".ryu-still").hide();
-			$(".ryu-ready").hide();
-			$(".ryu-cool").show();
-			$(".hadouken").hide();
+			$('.ryu-still').hide();
+			$('.ryu-ready').hide();
+			$('.ryu-cool').show();
+			$('.hadouken').hide();
 		}
 	})
 
 	$('body').keyup(function(e) {
 		if (e.which == 88) {
-			$(".ryu-still").show();
-			$(".ryu-ready").hide();
-			$(".ryu-cool").hide();
-			$(".hadouken").hide();
+			$('.ryu-still').show();
+			$('.ryu-ready').hide();
+			$('.ryu-cool').hide();
+			$('.hadouken').hide();
 
 		}
 	})
