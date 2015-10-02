@@ -27,6 +27,16 @@ body {
 .ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
+.hadouken {
+background-image: url('../images/GM_Ryu_Hadouken_anim.gif');
+  width: 156px;
+  height: 90px;
+  display: none;
+  position: relative;
+  top: 167px;
+  left: -212px;
+  float: left;
+}
 
 .ryu-still {
 	background-image: url('../images/ryu-standing-still.png');
@@ -52,53 +62,11 @@ body {
 }
 
 
-.hadouken {
-background-image: url('../images/hadouken.gif');
-  width: 156px;
-  height: 90px;
-  display: none;
-  position: relative;
-  top: 167px;
-  left: -212px;
-  float: left;
-}
-.hadouken.animate {
-	-webkit-animation: hadouken_animation 0.5s 0s 1;
-	-moz-animation:    hadouken_animation 0.5s 0s 1;
-	-ms-animation:     hadouken_animation 0.5s 0s 1;
-	-o-animation:      hadouken_animation 0.5s 0s 1;
-	animation:         hadouken_animation 0.5s 0s 1;
-	
-	-webkit-animation-timing-function: ease-in;
-	-moz-animation-timing-function:    ease-in;
-	-ms-animation-timing-function:     ease-in;
-	-o-animation-timing-function:      ease-in;
-	animation-timing-function:         ease-in;
-
-	-webkit-animation-fill-mode: forwards;
-	-moz-animation-fill-mode:    forwards;
-	-ms-animation-fill-mode:     forwards;
-	-o-animation-fill-mode:      forwards;
-	animation-fill-mode:         forwards;
+.footer{
+	color: red;
+	text-align: center;
+	display: block;
+	width: 200px;
+	margin: 5px auto;
 }
 
-@-webkit-keyframes hadouken_animation {
-	0%   { -webkit-transform: translateX(0px); }
-	100% { -webkit-transform: translateX(500px);}
-}
-@-moz-keyframes hadouken_animation {
-	0%   { -moz-transform:    translateX(0px); }
-	100% { -moz-transform:    translateX(500px);}
-}
-@-ms-keyframes hadouken_animation {
-	0%   { -ms-transform:     translateX(0px); }
-	100% { -ms-transform:     translateX(500px);}
-}
-@-o-keyframes hadouken_animation {
-	0%   { -o-transform:      translateX(0px); }
-	100% { -o-transform:      translateX(500px);}
-}
-@keyframes hadouken_animation {
-	0%   { transform:         translateX(0px); }
-	100% { transform:         translateX(500px);}
-}

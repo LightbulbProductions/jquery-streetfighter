@@ -20,7 +20,8 @@ $(document).ready(function() {
       function() {
         $(this).hide();
         $(this).css('left', '-212px');
-      });
+      }
+      );
   })
   .mouseup(function() {
      $('.ryu-throwing').hide();
@@ -54,5 +55,5 @@ $(document).ready(function() {
     $('#hadouken-sound')[0].play();
   }
   
-
+var mouseout = $(".ryu").mouseleave();
 
