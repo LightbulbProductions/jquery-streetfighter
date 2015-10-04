@@ -57,3 +57,20 @@ body {
   left: -212px;
   float: left;
 }
+
+.text1, .text2 {
+  position: absolute;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.text1 {
+  top: 190px;
+  left: 785px;
+}
+
+.text2 {
+  top: 355px;
+  left: 870px;
+}
